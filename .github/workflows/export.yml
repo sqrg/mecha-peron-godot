@@ -1,7 +1,5 @@
 on: 
-  push:
-    tags:
-      - "v*"
+  push: {}
 
 jobs:
   export_game:
